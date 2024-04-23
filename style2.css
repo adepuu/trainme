@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  margin: 0 auto;
+  padding-top: 0;
+  width: 100%;
+}
+
+nav {
+  font-family: "Mulish", sans-serif;
+  color: #000;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #beadfa;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo1,
+.vector1 {
+  align-items: center;
+  margin: auto 0;
+  padding-top: 4px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 12px;
+  background-color: white;
+  background-image: url("./imgs/challenge2/search.png");
+  background-position: 10px 6px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  border: none;
+  align-items: center;
+}
+
+.aboutUs {
+  background-color: #8e8ffa;
+  width: 100%;
+}
+
+.boxParagraph h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 80px 0 20px 0;
+}
+
+.boxParagraph {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+  color: #fff;
+  width: 573px;
+  /* height: 104px; */
+  top: 265px;
+  left: 450px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.description {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+  width: 611px;
+  height: 187px;
+  top: 356px;
+  left: 438px;
+  padding-bottom: 50px;
+}
+
+.blaBla {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+.blaBla h1 {
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 81px;
+}
+
+.review {
+  background-color: #c780fa;
+  padding: 23px;
+  width: 100%;
+  height: 100vh;
+}
+
+.titleReview {
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 81px;
+  text-align: center;
+}
+.review img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  margin-bottom: 20px;
+}
+
+.review p {
+  background-color: #ecf9ff;
+  border: 3px solid #000;
+  border-radius: 3%;
+  padding: 30px 27px;
+  margin: 30px;
+  font: 500 16px "Poppins", sans-serif;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.review span {
+  font: 400 25px "Poppins", sans-serif;
+  line-height: 37.5px;
+}

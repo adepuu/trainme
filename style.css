@@ -24,6 +24,7 @@ body {
 /* Check margin */
 nav {
   font-family: "Mulish", sans-serif;
+  /* color: #000; */
   color: #000;
   display: flex;
   justify-content: space-between;
