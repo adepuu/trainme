@@ -40,7 +40,8 @@ nav ul {
 /* Check list link style */
 nav ul li a {
   text-decoration: none;
-  color: #89c5cc;
+  /* color: #89c5cc; */
+  color: #1f1534;
   /* display: none; */
 }
 
