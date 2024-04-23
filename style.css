@@ -6,7 +6,11 @@
 font-family: 'Open Sans', sans-serif; */
 
 body {
-  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
 
   min-height: 100vh;
 }
@@ -24,24 +28,31 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 /* Check list styling */
 nav ul {
   display: flex;
   gap: 48px;
+  list-style-type: none;
 }
 
 /* Check list link style */
 nav ul li a {
-
+  font-family: 'Mulish', sans-serif;
+  text-decoration: none;
+  color: #1f1534;
+  font-weight: 400;
+  font-size: 17px;
+  opacity: 0.5;
 }
 
 /* Make text bold on hover */
 nav ul li a:hover {
-  
+  font-weight: 700;
+  opacity: 1;
 }
-
 
 main {
   display: flex;
@@ -53,15 +64,26 @@ main {
 /* Check margin and font styling */
 .text h1 {
   font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 20px;
 }
 
 /* Check font styling */
 .text h1 span {
+  color: #89c5cc;
+  line-height: 72px;
+  font-weight: 700;
 }
 
 /* Check font styling */
 .text p {
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7d7987;
+  line-height: 25.6px;
 }
 
 /* Check font styling and make sure the button is rounded */
@@ -69,20 +91,35 @@ main {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   gap: 8px;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 32px 15px 32px;
+  color: #f9f9f9;
+  background-color: #69b99d;
+  line-height: 20.83px;
+  font-size: 16px;
+  font-weight: 500;
+  top: 10px;
+  margin-top: 40px;
+  text-align: center;
 }
 
 /* Handle when user hover on the button */
 .text button:hover {
+  background-color: #7d7987;
 }
 
 /* Check the text styling */
 footer {
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
 }
 
 /* Check the text styling */
 footer a {
-  color: #000;
+  color: #000000;
   text-decoration: none;
   font-weight: 700;
 }
@@ -92,4 +129,3 @@ footer a {
   bottom: 0px;
   right: 0px;
 }
-
